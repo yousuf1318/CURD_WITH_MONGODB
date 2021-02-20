@@ -1,0 +1,23 @@
+{
+  "name": "CURD_WITH_MONGODB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.17",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.15",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "validator": "^13.5.2"
+  }
+}
